@@ -1,25 +1,70 @@
-# react-instagram-embed
+# Getting Started with Create React App
 
-Primeiro de tudo é necessário realizar o sequinte comando no cmd:
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-npx create-react-app my-app
-cd my-app
-npm i react-instagram-embed
-npm start
+## Available Scripts
 
-Obs.: "my-app" será o nome da pasta que vc criará, poderá chama-la como quiser. O npx deverá ser usado para retornar sermpre a versão mais atualizada do react.
+In the project directory, you can run:
 
-Logo em seguida será aberto o React APP no browser. Os únicos arquivos que serão editadas são a src/App.js, src/App.css, public/index.html, portanto, copie exatamente o código descrito nesses arquivos e cole nas mesmas pastas correspondentes no seu VSCode. Daí poderá ajustar o estilo em src/App.css conforme desejado. O restante dos arquivos permanecerá o conforme foi criado previamente.
+### `npm start`
 
-Obs.: É importante que no HTML contenha, logo abaixo de root:
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-          <div class="item active" id="item1">
-          <iframe class="instagram-media instagram-media-rendered" id="instagram-embed-0" src="https://www.instagram.com/p/CJoXTSQgcIH/embed/captioned/?cr=1&amp;v=7" allowtransparency="true" frameborder="0" height="776" data-instgrm-payload-id="instagram-media-payload-0" scrolling="no" style="border: 1px solid rgb(219, 219, 219); margin: 1px 1px 12px; max-width: 320px; width: calc(100% - 2px); border-radius: 4px; box-shadow: none; display: block; padding: 0px; background: rgb(255, 255, 255);"></iframe>
-          <script async="" defer="" src="//platform.instagram.com/en_US/embeds.js"></script>
-          </div>
-          
-Se não for incluído isso no HTML a aplicação não é exibida. Para que a aplicação retorne o link desejado (da página desejada) é necessário entrar no link do instagram e substituir a parte (https://www.instagram.com/p/CJoXTSQgcIH/embed/captioned/?cr=1&amp;v=7) "CJoXTSQgcIH" pelo que aparecer no browser, pois essa será a chave do link correto.
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-Basta fazer isso e a aplicação funcionará.
-      
-      
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
