@@ -3,8 +3,11 @@
 Primeiro de tudo é necessário realizar o sequinte comando no cmd:
 
 npx create-react-app my-app
+
 cd my-app
+
 npm i react-instagram-embed
+
 npm start
 
 Obs.: "my-app" será o nome da pasta que vc criará, poderá chama-la como quiser. O npx deverá ser usado para retornar sermpre a versão mais atualizada do react.
