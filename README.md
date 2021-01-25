@@ -12,7 +12,7 @@ npm i react-instagram-embed
 npm start
 
 
-Obs.: "my-app" será o nome da pasta que vc criará, poderá chama-la como quiser. O npx deverá ser usado para retornar sermpre a versão mais atualizada do react.
+Obs.: "my-app" será o nome da pasta que você criará, poderá chama-la como quiser. O npx deverá ser usado para retornar sermpre a versão mais atualizada do react.
 
 Logo em seguida será aberto o React APP no browser. Os únicos arquivos que serão editadas são a src/App.js, src/App.css, public/index.html, portanto, copie exatamente o código descrito nesses arquivos e cole nas mesmas pastas correspondentes no seu VSCode. Daí poderá ajustar o estilo em src/App.css conforme desejado. O restante dos arquivos permanecerá o conforme foi criado previamente.
 
